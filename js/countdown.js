@@ -44,13 +44,15 @@ $(function(){
     var mins = Math.floor(diff/60);
     var secs = 60 - new Date(now).getSeconds();
     secs = secs == 60 ? '00' : pad(secs);
-
+    
     var newCount = ['00 days,', pad(hrs), dividers[1], pad(mins), dividers[2], secs, dividers[3]].join(' ');
 
     setText(newCount);
   }
 
-  function setCustomDonateLink(donateId=false) {
+  function setCustomDonateLink(donateId) {
+    donateId = donateId || false;
+
     switch (donateId) {
       case 'tiffany':
       case 'michelle':
