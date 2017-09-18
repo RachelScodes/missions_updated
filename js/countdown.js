@@ -45,7 +45,7 @@ $(function(){
     var secs = 60 - new Date(now).getSeconds();
     secs = secs == 60 ? '00' : pad(secs);
 
-    var newCount = ['00', dividers[0], pad(hrs), dividers[1], pad(mins), dividers[2], secs, dividers[3]].join(' ');
+    var newCount = ['00 days,', pad(hrs), dividers[1], pad(mins), dividers[2], secs, dividers[3]].join(' ');
 
     setText(newCount);
   }

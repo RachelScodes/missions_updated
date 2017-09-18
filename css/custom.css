@@ -483,6 +483,10 @@ iframe {
 	padding: 0;
 }
 
+p.date {
+    bottom: 60px;
+}
+
 /* media query for tab */
 @media (max-width: 767px) {
 	.event-banner-wrapper {
@@ -501,10 +505,6 @@ iframe {
 	.event-banner-wrapper h2 span {
 	    font-size: 16px;
 	}
-
-  p.date {
-      bottom: 60px;
-  }
 
 	.event-ticket-wrapper {
 	    padding: 20px;
