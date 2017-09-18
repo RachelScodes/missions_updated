@@ -132,6 +132,7 @@ label {
 }
 
 .event-banner-wrapper h2 {
+  padding-bottom: 60px;
     position: absolute;
 	font-family: 'Nixie One', sans-serif;
 	font-size: 4vw;
@@ -499,7 +500,6 @@ p.date {
 	.event-banner-wrapper h2 {
 	    font-size: 38px;
 	    line-height: 38px;
-      padding-bottom: 60px;
 	}
 
 	.event-banner-wrapper h2 span {
